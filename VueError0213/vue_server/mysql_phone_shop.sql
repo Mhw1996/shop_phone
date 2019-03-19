@@ -87,6 +87,7 @@ INSERT  INTO news VALUES(null,2,"小米9SE小屏旗舰骁龙 712 全球首发，
 INSERT  INTO news VALUES(null,3," 争做优等生2.15-2.22开学换新季，轻薄，学习两不误","http://127.0.0.1:3000/img/news_info/优等生.jpg","320",now());
 INSERT  INTO news VALUES(null,4,"全面均衡的国民轻薄本第八代酷睿™ 四核处理器","http://127.0.0.1:3000/img/news_info/小米笔记本pg.jpg","320",now());
 INSERT  INTO news VALUES(null,5,"小米电视4C 55英寸人工智能/4K HDR/超窄边/大内存/钢琴烤漆/杜比音效/高性能/海量片源","http://127.0.0.1:3000/img/news_info/电视4A.jpg","320",now());
+
 CREATE TABLE newsinfo(
   pid INT PRIMARY KEY AUTO_INCREMENT,
   nid INt,
@@ -95,7 +96,7 @@ CREATE TABLE newsinfo(
   newinfo2_url VARCHAR(200),
   newinfo3_url VARCHAR(200),
   newinfo4_url VARCHAR(200)
-)
+);
 INSERT INTO newsinfo VALUES(null,1,"全球首批骁龙855,年度超旗舰处理器,索尼 4800 万像素三摄,DxOMark 拍照世界前三,支持超广角、微距拍摄,开启手机三摄时代,全球首款 20W 无线闪充,速度堪比有线快充,全息幻彩玻璃机身,手心中的梦幻彩虹光,全曲面轻薄设计,怦然心动的好手感,第五代极速屏下指纹,快25% 解锁超灵敏,三星 AMOLED 屏幕,90.7% 超高屏占比,标配27W 有线快充,充满只需 60 分钟,蓝宝石玻璃镜片,超硬耐磨，长久保护","http://127.0.0.1:3000/img/news_info/小米9/index1.jpg","http://127.0.0.1:3000/img/news_info/小米9/noline.png","http://127.0.0.1:3000/img/news_info/小米9/play.jpg","http://127.0.0.1:3000/img/news_info/小米9/storage.jpg");
 INSERT INTO newsinfo VALUES(null,2,"小米9SE专为小屏“铁粉”精心打造它几乎就是一个小屏版的小米9它保留了小米9 众多旗舰功能三星 AMOLED屏幕、第五代屏幕指纹识别、索尼 4800 万相机、全息幻彩机身工艺。更有全球首发的骁龙 712，NFC、红外遥控等旗舰配置","http://127.0.0.1:3000/img/news_info/小米9se/camera.jpg","http://127.0.0.1:3000/img/news_info/小米9se/fingerprint.jpg","http://127.0.0.1:3000/img/news_info/小米9se/index-bg.jpg","http://127.0.0.1:3000/img/news_info/小米9se/screen.jpg");
 INSERT INTO newsinfo VALUES(null,3,"争做优等生2.15-2.22开学换新季，轻薄，学习两不误","http://127.0.0.1:3000/img/news_info/争做优等生/01.jpg","http://127.0.0.1:3000/img/news_info/争做优等生/02.jpg","http://127.0.0.1:3000/img/news_info/争做优等生/03.jpg","http://127.0.0.1:3000/img/news_info/争做优等生/04.jpg");
